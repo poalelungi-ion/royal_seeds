@@ -69,11 +69,11 @@ h6,
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 80px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
   background: #034001;
+  height: 80px
 }
 
 #header.header-transparent {
@@ -82,7 +82,7 @@ h6,
 
 #header.header-scrolled {
   background: rgb(3, 64, 1);
-  height: 60px;
+  height: 80px;
 }
 
 #header .logo h1 {

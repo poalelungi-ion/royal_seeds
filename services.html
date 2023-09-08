@@ -58,10 +58,15 @@
         </li>
         <li class="dropdown"><a href="#"><span>Languages</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
-            <li><a href="#">Romanian</a></li>
-            <li><a href="#">Danish</a></li>
-            <li><a href="#">English</a></li>
+            <li><div id="google_translate_element"></div></li>
           </ul>
+          <script type="text/javascript">
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'da,ro', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+            }
+          </script>
+
+          <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         </li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
@@ -101,7 +106,7 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="#">Who we are?</a></h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <p class="card-text">“Alex Group” SRL is the company that has created the Royal Seeds brand. The Company is engaged in the processing, drying, and conditioning of grains, and oilseeds; in the production of oils and fats, as well as in the wholesaling of its products, seeds, and oils. Royal Seeds products can be found both in stores in the Republic of Moldova and in numerous commercial networks in Europe.</p>
                 <div class="entry-meta">
                   <i class="bi bi-person"></i> <a href="blog-single.html">Publisher Name </a>
                   <i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020  </time></a>
@@ -117,7 +122,7 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="#">Our Plan</a></h5>
-                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+                <p class="card-text">As we march forward, we're committed to implementing HACCP and ISO standards, showcasing our dedication to quality and safety. Our unwavering goal is to expand our product range, offering a wider selection of wholesome and delectable choices. </p>
                 <div class="entry-meta">
                   <i class="bi bi-person"></i> <a href="blog-single.html">Publisher Name </a>
                   <i class="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020  </time></a>

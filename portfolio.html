@@ -24,12 +24,24 @@
   <link href="assets/helpers/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/helpers/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/helpers/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <style>
+    /* Add custom CSS to make the widget less obtrusive */
+    #google_translate_element {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 5px;
+    }
+  </style>
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
+
 
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top d-flex align-items-center ">
@@ -58,9 +70,7 @@
         </li>
         <li class="dropdown"><a href="#"><span>Languages</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
-            <li><a href="#">Romanian</a></li>
-            <li><a href="#">Danish</a></li>
-            <li><a href="#">English</a></li>
+            <li><div id="google_translate_element"></div></li>
           </ul>
         </li>
       </ul>
@@ -103,7 +113,10 @@
             </ul>
           </div>
         </div>
+        <!-- Vendor JS Files -->
 
+
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         <div class="row portfolio-container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
 
           <div class="col-lg-4 col-md-6 portfolio-wrap filter-soya-emadame">
@@ -113,7 +126,7 @@
                 <h3>Edamame soybeans – salted and roasted</h3>
                 <div>
                   <a href="assets/img/portfolio/01g-Boabe-de-Soya-Verde.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Edamame soybeans – salted and roasted"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="portfolio-01-Boabe-de-Soya-Verde.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -126,7 +139,7 @@
                 <h3>EDAMAME SOYBEANS – SALTED, ROASTED, AND COATED</h3>
                 <div>
                   <a href="assets/img/portfolio/02g-Boabe-de-Soya-Verde-Glazurate.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="EDAMAME SOYBEANS – SALTED, ROASTED, AND COATED"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="portfolio-02-Boabe-de-Soya-Verde-Glazurate.html " title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -139,7 +152,7 @@
                 <h3>EDAMAME SOYBEANS – SALTED, ROASTED, AND WASABI COATED</h3>
                 <div>
                   <a href="assets/img/portfolio/03g-Boabe-de-Soya-Verde-Glazurate.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="EDAMAME SOYBEANS – SALTED, ROASTED, AND WASABI COATED"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="portfolio-03-Boabe-de-Soya-Verde-Glazurate.-Wasabi.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -152,7 +165,7 @@
                 <h3>YELLOW SOYBEANS – SALTED & ROASTED</h3>
                 <div>
                   <a href="assets/img/portfolio/04g-Boabe-de-Soya-Galbena-prajite-si-sarate.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="YELLOW SOYBEANS – SALTED & ROASTED"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="portfolio-04-Boabe-de-Soya-Galbena-prajite-si-sarate.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -165,7 +178,7 @@
                 <h3>YELLOW SOYBEANS – SALTED, ROASTED, AND COATED</h3>
                 <div>
                   <a href="assets/img/portfolio/05g-Boabe-de-Soya-Galbena-glazurate.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="YELLOW SOYBEANS – SALTED, ROASTED, AND COATED"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="portfolio-05-Boabe-de-Soya-Galbena-glazurate.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -178,7 +191,7 @@
                 <h3>SUNFLOWER SEEDS – ROASTED AND UNSALTED</h3>
                 <div>
                   <a href="assets/img/portfolio/06g-Seminte-de-Floarea-Soarelui-prajiet-fara-sare.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SUNFLOWER SEEDS – ROASTED AND UNSALTED"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="portfolio-06-Seminte-de-Floarea-Soarelui-prajiet-fara-sare.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -191,7 +204,7 @@
                 <h3>SUNFLOWER SEEDS – ROASTED AND SALTED (1,5%)</h3>
                 <div>
                   <a href="assets/img/portfolio/07g-Seminte-de-Floarea-Soarelui-prajit-cu-sare-15.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SUNFLOWER SEEDS – ROASTED AND SALTED (1,5%)"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="portfolio-07-Seminte-de-Floarea-Soarelui-prajit-cu-sare-15.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -204,7 +217,7 @@
                 <h3>SUNFLOWER KERNELS – ROASTED AND SALTED (0,65%)</h3>
                 <div>
                   <a href="assets/img/portfolio/08g-Miez-de-Floarea-Soarelui-prajit-cu-sare-065.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="SUNFLOWER KERNELS – ROASTED AND SALTED (0,65%)"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="portfolio-08-Miez-de-Floarea-Soarelui-prajit-cu-sare-065.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -217,7 +230,7 @@
                 <h3>MIX OF WALNUT KERNELS AND DRIED FRUITS „HEALTHY MIX”</h3>
                 <div>
                   <a href="assets/img/portfolio/09g-Mix-de-miez-de-nuci-si-fructe-uscate.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="MIX OF WALNUT KERNELS AND DRIED FRUITS „HEALTHY MIX”"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="portfolio-09-Mix-de-miez-de-nuci-si-fructe-uscate.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -230,7 +243,7 @@
                 <h3>PEANUTS – ROASTED AND SALTED (2,5%)</h3>
                 <div>
                   <a href="assets/img/portfolio/10g-Miez-de-Arahide-prajite-cu-sare-25.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="PEANUTS – ROASTED AND SALTED (2,5%)"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="portfolio-10-Miez-de-Arahide-prajite-cu-sare-25.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -238,12 +251,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-wrap filter-oil">
             <div class="portfolio-item">
-              <img src="assets/img/portfolio/imgbin_cooking-oil-bottle-olive-oil-sesame-oil-png.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/11g-ulei-%20de-floarea-sorelui-5l.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h3>OIL 1</h3>
                 <div>
-                  <a href="assets/img/portfolio/imgbin_cooking-oil-bottle-olive-oil-sesame-oil-png.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="OIL 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/11g-ulei-%20de-floarea-sorelui-5l.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="OIL 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-11g-ulei-%20de-floarea-sorelui-5l.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -251,11 +264,11 @@
 
           <div class="col-lg-4 col-md-6 portfolio-wrap filter-oil">
             <div class="portfolio-item">
-              <img src="assets/img/portfolio/imgbin_cooking-oil-bottle-olive-oil-sesame-oil-png.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/12-ulei-de-floarea-soarelui-0.95l.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h3>OIL 2</h3>
                 <div>
-                  <a href="assets/img/portfolio/imgbin_cooking-oil-bottle-olive-oil-sesame-oil-png.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="OIL 2"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/12-ulei-de-floarea-soarelui-0.95l.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="OIL 2"><i class="bx bx-plus" ></i></a>
                   <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -348,6 +361,14 @@
   <script src="assets/helpers/waypoints/noframework.waypoints.js"></script>
   <script src="assets/helpers/php-email-form/validate.js"></script>
 
+<!-- Include the Google Translate API script -->
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'da,ro', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+  }
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 

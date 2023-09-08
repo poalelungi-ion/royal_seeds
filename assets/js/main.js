@@ -234,3 +234,16 @@
   new PureCounter();
 
 })()
+function setLanguage(languageCode) {
+  // Check the selected language and update content accordingly
+  if (languageCode === 'ro') {
+    document.getElementById('pageTitle').textContent = 'Bine ati venit!';
+    document.getElementById('welcomeMessage').textContent = 'Aceasta este o pagina demonstrativa.';
+  } else if (languageCode === 'da') {
+    document.getElementById('pageTitle').textContent = 'Velkommen!';
+    document.getElementById('welcomeMessage').textContent = 'Dette er en demo side.';
+  } else if (languageCode === 'en') {
+    document.getElementById('pageTitle').textContent = 'Welcome!';
+    document.getElementById('welcomeMessage').textContent = 'This is a demo page.';
+  }
+}
